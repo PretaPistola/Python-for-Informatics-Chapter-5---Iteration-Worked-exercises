@@ -13,6 +13,7 @@ smallest_so_far = None
 while True:
     num_input = raw_input("Enter a number: ")
     if num_input == "done" : break
+    
     else:
         try:
             num = int(num_input)
